@@ -359,7 +359,6 @@ body {
     color: white;
 }
 
-
 .right-icon,
 .left-icon {
     height: 44px;
@@ -373,7 +372,6 @@ body {
 .right-icon:hover {
     background-color: var(--color-orange);
 }
-
 
 .left-icon i, 
 .right-icon i {
@@ -551,8 +549,6 @@ body {
     margin-bottom: 37px;
 }
 
-
-
 /* Footer */
 
 footer {
@@ -561,7 +557,6 @@ footer {
 
 .footer-list {
     align-items: flex-start;
-    
 }
 
 .footer-item img {
