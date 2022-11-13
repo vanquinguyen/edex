@@ -1,0 +1,22 @@
+
+/* contact */
+
+.contact-content h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contact-content span{
+    color: var(--color-blue);
+}
+
+.contact-content .contact-sub-heading {
+    font-size: 20px;
+    color: #52565C;
+    margin: 20px 0;
+}
+
+.contact-content .contact-text {
+    color: #6D737A;
+    margin-bottom: 37px;
+}

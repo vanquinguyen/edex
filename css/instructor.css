@@ -1,0 +1,28 @@
+
+/* instructor */
+
+.instructor {
+    background-color: rgba(255, 255, 255, 0.873);
+}
+
+.instructor-item {
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 1px 24px 2px #ccc;
+}
+
+.instructor-item img{
+    width: 100%;
+}
+
+.instructor-item h4{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.instructor-item p{
+    color: #6D737A;
+}   

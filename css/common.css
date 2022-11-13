@@ -1,0 +1,131 @@
+:root {
+    --color-orange: #FFC27A;
+    --color-blue: #3461FD;
+    --color-gray-100: #CFD3D6;
+    --color-gray-700: #363A3D;
+    --color-gray-black: #1B1D1F;
+    --background-linear: linear-gradient(180deg, #FFC27A 0%, #FFA337 100%);;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/*  */
+
+.row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+
+.col-quarter {
+    width: 25%;
+}
+
+.container {
+    width: calc(100% - 300px);
+    margin: 0 auto;
+}
+
+.section-content {
+    padding: 80px 0;
+}
+
+.heading {
+    font-size: 40px;
+    color: #21212F;
+    font-weight: 600;
+}
+
+.heading span{
+    color: #3461FD;
+}
+
+.sub-heading {
+    color: #6D737A;
+    margin: 16px 0 45px 0;
+}
+
+.btn {
+    background: linear-gradient(180deg, #FFC27A 0%, #FFA337 100%);
+    padding: 12px 24px;
+    border-radius: 32px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.m-16 {
+    margin: 16px 0;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.p-all{
+    padding: 80px 0 50px 0;
+}
+
+.green-color {
+    background: linear-gradient(180deg, #2AF9B1 0%, #20B486 100%);
+}
+
+.purple-color {
+    background: linear-gradient(180deg, #A988F9 0%, #6D3AE9 100%);
+}
+
+.red-color{
+    background: linear-gradient(180deg, #FFA4AF 0%, #EE455A 100%);
+}
+.blue-color {
+    background: linear-gradient(180deg, #92DAF0 0%, #21C9FF 100%);
+}
+
+.right-icon,
+.left-icon {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 4px 1px 24px 2px #ccc;
+    position: absolute;
+}
+
+.left-icon {
+    left: -60px;
+}
+
+.right-icon {
+    right: -60px;
+}
+
+.left-icon:hover,
+.right-icon:hover {
+    background-color: var(--color-orange);
+}
+
+.left-icon i, 
+.right-icon i {
+    margin: auto;
+    font-size: 16px;
+    color: black;
+}
+
+.left-icon:hover i,
+.right-icon:hover i{
+    color: white;
+}

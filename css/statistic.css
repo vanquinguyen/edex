@@ -1,0 +1,36 @@
+/* statistic */
+.statistic {
+    background: #F1F2F8;
+}
+
+.statistic-list {
+    padding: 40px 0;
+}  
+
+.statistic-list .statistic-item {
+    display: flex;
+    align-items: center;
+}
+
+.statistic-list .statistic-item .statistic-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 24px;
+}
+
+.statistic-list .statistic-item i {
+    color: white;
+    font-size: 24px;
+    margin: auto;
+} 
+
+.statistic-item .statistic-body {
+    line-height: 1.6;
+}
+
+.statistic-item .statistic-body h3{
+    font-size: 24px;
+    font-weight: 600;
+}

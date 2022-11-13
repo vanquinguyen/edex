@@ -1,0 +1,46 @@
+/* header */
+.header {
+    background-color: #6176F7;
+    height: 96px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-container {
+    width: calc(100% - 300px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0;
+    align-items: center;
+}
+
+.header-container img {
+    height: 40px;
+    width: 106px;
+    object-fit: contain;
+}
+
+.header-container .menu {
+    display: flex;
+    gap: 32px;
+}
+
+.header-container .menu li {
+    list-style-type: none;
+}
+
+.header-container .menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.auth .header-login {
+    padding-right: 12px;
+}
+
+.auth a, i {
+    text-decoration: none;
+    color: white;
+}

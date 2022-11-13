@@ -1,0 +1,47 @@
+
+/* Category */
+
+.category {
+    background: rgba(231, 233, 235, 0.5)
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 22px;
+    box-shadow: 0 0 10px -5px #888888;
+    border-radius: 22px;
+    background-color: white;
+}
+
+.category-item .category-icon i{
+    color: black;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.category-item .category-icon span{
+    font-size: 20px;
+}
+
+.category-item .category-icon-arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    background: linear-gradient(180deg, rgba(255, 194, 122, 0.12) 0%, rgba(255, 163, 55, 0.12) 100%);
+}
+
+.category-item .category-icon-arrow i{
+    color: var(--color-orange);
+    margin: auto;
+}
+
+.category-item .category-icon-arrow:hover {
+    background-color: var(--color-orange);
+    cursor: pointer;
+}
+.category-item .category-icon-arrow:hover i {
+    color: white;
+}

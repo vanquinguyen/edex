@@ -1,0 +1,80 @@
+
+/* banner */
+.banner {
+    background-color: #6176F7;
+}
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+
+.banner-container .banner-content{
+    width: 100%;
+    max-width: 677px;
+}
+
+.banner-container .banner-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-orange);
+    line-height: calc(32px / 24px);
+    margin-bottom: 24px;
+}
+
+.banner-container .banner-content h1 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: calc(72 / 55);
+    color: white;
+    margin-bottom: 24px;
+}
+
+.banner-container .banner-content p {
+    color: var(--color-gray-100);
+    font-size: 20px;
+    /* font-weight: 400; */
+    line-height: calc(28 / 20);
+    margin-bottom: 32px;
+}
+
+.banner-container .search-input {
+    position: relative;
+    width: 648px;
+}
+
+.banner-container .search-input input{
+    width: 648px;
+    height: 72px;
+    border-radius: 38px;
+    padding-left: 32px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(24 / 16);
+}
+
+.banner-container .search-input input:focus {
+    outline: unset;
+}
+
+.banner-container .search-input i{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    padding: 24px;
+    background-color: var(--color-orange);
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+}
+
+.banner-img {
+    width: 738px;
+    height: 738px;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
