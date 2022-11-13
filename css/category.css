@@ -15,6 +15,13 @@
     background-color: white;
 }
 
+.category-item .category-icon {
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .category-item .category-icon i{
     color: black;
     padding-right: 10px;
